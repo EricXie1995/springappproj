@@ -7,7 +7,7 @@
 <head>
 <!-- CDN方式 -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- 去WebJars網站抓Maven檔的方式 -->
+<!-- 去WebJars網站或Maven抓Maven檔的方式 -->
 <%-- 	<script type="text/javascript" src="<c:url value='/webjars/jquery/3.6.0/jquery.js' />"></script> --%>
 <!-- 直接去jq官網或Maven下載至本機方式 -->
 <%-- <script type="text/javascript" src="<c:url value='/javascript/jquery-3.6.0.min.js' />"></script> --%>
