@@ -22,7 +22,12 @@ public class BaseController {
 	public String index() {
 		return "index";
 	}
-	
+
+	@GetMapping("/api-test")
+	public String apiTest() {
+		return "product-api-test";
+	}
+
 	@PutMapping("/")
 	public String putdata() {
 		return "put";

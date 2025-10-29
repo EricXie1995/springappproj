@@ -24,8 +24,9 @@
 			<c:url value="/" />
 		</h2>
 		<hr>
-		<a href="<c:url value='/hello' />?name=Lisa"> Hello </a><br> <a
-			href="<c:url value='/ch02/getWebImages' />">Penelope_Cruz </a><br>
+		<a href="<c:url value='/hello' />?name=Lisa"> Hello </a><br>
+		<a href="<c:url value='/ch02/getWebImages' />">Penelope_Cruz </a><br>
+		<a href="<c:url value='/api-test' />">Product REST API 測試工具</a><br>
 		<p>jquery測試</p>
 		<input type="button" id="btn2" value="h標籤變色"> <img alt="img"
 			src="<c:url value='/images/img1.jpg' />">
